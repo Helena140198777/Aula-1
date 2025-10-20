@@ -1,0 +1,34 @@
+.div1{
+    background-color: black;
+    width: 33.33%;
+    height: 300px;
+    float: left;
+}
+
+.div2{
+    background-color: rgb(233, 63, 63);
+    width: 33.33%;
+    height: 300px;
+    float: left;
+}
+.div3{
+    background-color: rgb(1, 166, 196);
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    
+}
+.div4{
+    background-color: rgb(89, 240, 2);
+    width: 100%;
+    height: 150px;
+    float: left;
+    clear: left;
+}
+.div5{
+    background-color: rgb(124, 3, 180);
+    width: 100%;
+    height: 150px;
+    float: left;
+    clear: left;
+}
