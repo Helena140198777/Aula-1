@@ -1,11 +1,48 @@
 body{
-    background: hsl(196.58deg 50% 70.2%);
+    background: rgb(250, 240, 244);
+    margin: 0;
+    padding: 0;
 }
-.paragrafo{
-    background: #e9f1fa;
-    border-radius: 10px;
+
+.divtop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 36px;
+    padding-left: 20%;
+    padding-right: 45%;
+}
+
+.paragrafo2{
+    background: rgb(255, 221, 236);
     padding: 8px;
-    font-size: 22px ;
+    margin: 0;
+    text-align: center;
+}
+
+.paragrafo2 h2{
+    font-size: 18px ;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+    gap: 24px;
+}
+
+.card{
+    background: rgb(252, 200, 221);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+    gap: 24px;
 }
 
 .div1{
@@ -15,7 +52,5 @@ body{
 }
 
 .quadradinho{
-    background-color: rgb(192, 240, 220);
-    padding: 8px;
-    border-radius: 10px;
-}
+    background-color: rgb(253, 244, 248);
+    padding: 8px;}
